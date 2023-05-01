@@ -9,9 +9,13 @@
   max-width: 1145px;
   margin: 0 auto;
 }
+.main1,.main2{
+  background-color: #F1F1F1;;
+}
 .header{
-  background: #FFFFFF;
+  background: #F1F1F1;;
   padding-top: 64px;
+  margin-top: 64px;
 }
 .negr{
   transition: .5s;
@@ -148,12 +152,12 @@ color: #000000;
       grid-template-columns: repeat(5 , 1fr);
       grid-column-gap: 8px;
       button{
-        border: none;
-        transition: .5s;
+        border: none !important;
+        transition: .5s !;
         &:hover{
-            background-color: #FFC000;
+            background-color: #FFC000 !important;
           }
-        padding: 12px;
+        padding: 12px !important;
       }
     }
     .buttons2{
@@ -162,10 +166,10 @@ color: #000000;
       justify-content: start;
       align-items: center;
       .btn1 , .btn2{
-        border: none;
-        transition: .5s;
+        border: none !important;
+        transition: .5s !important;
         &:hover{
-          background-color: #FFC000;
+          background-color: #FFC000 !important;
         }
         font-weight: 600;
 font-size: 14px;
@@ -185,7 +189,7 @@ color: #000000;
       }
       .btn2{
         margin-top: 16px;
-        padding:10px 99px ;
+        padding:10px 99px !important ;
       }
     }
   }
@@ -254,14 +258,14 @@ padding-top: 8px;
     display: flex;
   }
   button{
-    border: none;
-        transition: .5s;
+    border: none !important;
+        transition: .5s !important;
         &:hover{
-            background-color: #FFC000;
+            background-color: #FFC000 !important;
           }
-        padding: 8px 24px;
-        margin-top: 16px;
-        width: 100%;
+        padding: 8px 24px !important;
+        margin-top: 16px !important;
+        width: 100% !important;
         margin-bottom: 8px;
   }
 }
@@ -398,3 +402,118 @@ button{
   width: 100%;
 }
 }
+nav {
+    background-color: #d0d0d0;
+    margin-top: 40px;
+
+    .bir {
+        margin-right: 20px;
+    }
+
+    .cart {
+        margin-left: 20px;
+    }
+}
+
+.naavv {
+    margin-top: -72px !important;
+    z-index: 999;
+}
+.naavv6 {
+    margin-top: -72px !important;
+    z-index: 999;
+}
+.naav {
+    position: fixed;
+    width: 100%;
+    background-color: #0D0D0D;
+    color: white;
+    margin-top: -70px;
+    z-index: 999;
+
+    .naav2 {
+        display: flex;
+        padding-top: 10px;
+
+        .ru {
+            a {
+                color: white;
+                margin-right: 5px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                text-decoration: none;
+                line-height: 140%;
+                letter-spacing: 1.5px;
+                text-transform: uppercase;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+            }
+        }
+        .uz {
+            a {
+                color: rgba(255, 255, 255, 0.278);
+                margin-left: 5px;
+                text-decoration: none;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                text-decoration: none;
+                line-height: 140%;
+                letter-spacing: 1.5px;
+                text-transform: uppercase;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+            }
+        }
+    }
+}
+
+footer {
+    background-color: white;
+    padding: 30px 0px;
+
+    .futer {
+        display: flex;
+        justify-content: space-between;
+
+        h3 {
+            cursor: pointer;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 140%;
+            letter-spacing: 0.75px;
+            text-transform: uppercase;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            margin-bottom: 16px;
+        }
+
+        .h3 {
+            cursor: pointer;
+            margin-top: 30px;
+        }
+
+        p {
+            cursor: pointer;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 160%;
+            letter-spacing: 0.25px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+        }
+    }
+}
+@media (max-width: 750px) {
+    footer {
+        .futer {
+            flex-direction: column !important;
+            text-align: center !important;
+        }
+    }
+}
+

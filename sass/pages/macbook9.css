@@ -26,18 +26,18 @@ html {
   scroll-behavior: smooth;
 }
 
-.container {
-  max-width: 1000px;
+.container1 {
+  max-width: 990px;
   margin: auto;
 }
 
 /* Section1 start */
 .section1 {
-  padding-top: 100px;
+  padding-top: 90px;
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 110px;
-  background: #E5E5E5;
+  background: #d1d1d1;
   position: relative;
 }
 

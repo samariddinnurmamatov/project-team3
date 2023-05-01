@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FaFaFa;
+}
+
+.container {
+    max-width: 1150px;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+
+
+
+
+main {
+    .page6 {
+        padding-top: 100px;
+        padding-bottom: 50px;
+        .diagram {
+            background-color: white;
+            // padding-bottom: 50px;
+            display: flex;
+            border-radius: 10px;
+            margin-bottom: 30px;
+    
+            .fleks {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+    
+                .right {
+                    margin-left: 50px;
+    
+                    img {
+                        cursor: pointer;
+                    }
+    
+                    .fleks2 {
+                        display: flex;
+                        //   align-items: center;
+                        justify-content: space-between;
+                        margin-bottom: 10px;
+    
+                        h3 {
+                            font-family: "Montserrat";
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 24px;
+                            line-height: 140%;
+                            font-feature-settings: "pnum" on, "lnum" on;
+                            color: #040921;
+                        }
+                    }
+    
+                    .fleks3 {
+                        display: flex;
+    
+                        .le {
+                            margin-left: 30px;
+    
+                            p {
+                                font-family: "Inter";
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 16px;
+                                line-height: 24px;
+                                text-align: center;
+                                font-feature-settings: "pnum" on, "lnum" on;
+                            }
+                        }
+                    }
+    
+                    .fleks5 {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                    }
+                }
+    
+                .left {
+                    margin-left: -20px;
+                }
+            }
+        }
+    }
+}

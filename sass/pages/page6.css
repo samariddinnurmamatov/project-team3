@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FaFaFa;
+}
+
+.container {
+  max-width: 1150px;
+  margin: auto;
+  padding: 0px 20px;
+}
+
+main .page6 {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+main .page6 .diagram {
+  background-color: white;
+  display: flex;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+main .page6 .diagram .fleks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main .page6 .diagram .fleks .right {
+  margin-left: 50px;
+}
+
+main .page6 .diagram .fleks .right img {
+  cursor: pointer;
+}
+
+main .page6 .diagram .fleks .right .fleks2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+main .page6 .diagram .fleks .right .fleks2 h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #040921;
+}
+
+main .page6 .diagram .fleks .right .fleks3 {
+  display: flex;
+}
+
+main .page6 .diagram .fleks .right .fleks3 .le {
+  margin-left: 30px;
+}
+
+main .page6 .diagram .fleks .right .fleks3 .le p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  font-feature-settings: "pnum" on, "lnum" on;
+}
+
+main .page6 .diagram .fleks .right .fleks5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main .page6 .diagram .fleks .left {
+  margin-left: -20px;
+}
+/*# sourceMappingURL=page6.css.map */

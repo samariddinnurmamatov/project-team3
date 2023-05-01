@@ -105,3 +105,12 @@ footer {
     }
 }
 
+
+@media (max-width: 750px) {
+    footer {
+        .futer {
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+}

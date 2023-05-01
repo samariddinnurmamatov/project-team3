@@ -193,6 +193,10 @@ main .section4 .sec4 .rightx .fleksx p {
   font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
+main .section4 .sec4 .rightx .fleksx .fleks2 {
+  margin-left: 20px;
+}
+
 @media (max-width: 880px) {
   main .section3 .sec3 .fleks {
     flex-direction: column;
@@ -210,7 +214,7 @@ main .section4 .sec4 .rightx .fleksx p {
     margin-left: 0px !important;
   }
   main .section4 .sec4 .rightx .fleksx {
-    justify-content: flex-start;
+    justify-content: space-between;
   }
   main .section4 .sec4 .rightx .fleksx .fleks2 {
     margin-left: 50px;

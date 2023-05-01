@@ -29,8 +29,8 @@ input:focus {
   text-align: center;
 }
 .sec .shop {
-  width: 1146px;
-  height: 295px;
+  width: auto;
+  height: 355px;
   background-color: #fff;
 }
 .sec .shop .head {
@@ -48,12 +48,14 @@ input:focus {
   margin-bottom: 12px;
 }
 .sec .shop .item {
+  width: auto;
   height: 66px;
   margin-bottom: 43px;
 }
 .sec .shop .num {
   display: flex;
   justify-content: space-between;
+  margin-top: 100px;
 }
 .sec .shop .num .cum {
   display: flex;
@@ -78,7 +80,7 @@ input:focus {
   height: 37px;
 }
 .sec .afarmlyat {
-  width: 1160px;
+  width: auto;
   right: 150px;
   left: 150px;
   text-align: right;
@@ -91,7 +93,7 @@ input:focus {
   background: #FFC000;
 }
 .sec .wor {
-  width: 1146px;
+  width: auto;
   height: 48px;
   display: flex;
   justify-content: center;
@@ -104,6 +106,15 @@ input:focus {
   margin-left: 19px;
 }
 
+@media (min-width: 575px) {
+  .shop {
+    width: 1146px;
+    height: 295px;
+  }
+  .shop .num {
+    margin-top: -100px;
+  }
+}
 @media (min-width: 1200px) {
   .item {
     margin-left: 294px;

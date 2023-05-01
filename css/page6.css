@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FaFaFa;
+}
+
+.container {
+  max-width: 1150px;
+  margin: auto;
+  padding: 0px 20px;
+}
+
+main .page6 {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+main .page6 .diagram {
+  margin-left: 20px;
+  background-color: white;
+  display: flex;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+main .page6 .diagram .fleks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .page6 .diagram .fleks .right {
+  margin-left: 50px;
+  padding-right: 20px;
+}
+main .page6 .diagram .fleks .right img {
+  cursor: pointer;
+}
+main .page6 .diagram .fleks .right .fleks2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+main .page6 .diagram .fleks .right .fleks2 h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #040921;
+}
+main .page6 .diagram .fleks .right .fleks3 {
+  display: flex;
+}
+main .page6 .diagram .fleks .right .fleks3 .le {
+  margin-left: 30px;
+}
+main .page6 .diagram .fleks .right .fleks3 .le p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  font-feature-settings: "pnum" on, "lnum" on;
+}
+main .page6 .diagram .fleks .right .fleks5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .page6 .diagram .left {
+  margin-left: -20px;
+}
+main .nmadir {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .nmadir button {
+  all: unset;
+  cursor: pointer;
+  background-color: #FFC000;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #0D0D0D;
+  padding: 18px 100px;
+  transition: 0.5s;
+}
+main .nmadir p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+main .nmadir p span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.44px;
+  margin-left: 16px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+main .page6__2 h1 {
+  text-align: center;
+  margin-bottom: 32px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 140%;
+  letter-spacing: 0.25px;
+  font-feature-settings: "pnum" on, "lnum" on;
+}
+main .page6__2 .gridda {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 25px;
+  margin-bottom: 64px;
+}
+main .page6__2 .gridda .grid-1 {
+  background-color: white;
+  border-radius: 14px;
+}
+main .page6__2 .gridda .grid-1 .paddin {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+main .page6__2 .gridda .grid-1 .paddin .p-1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  font-feature-settings: "pnum" on, "lnum" on;
+}
+main .page6__2 .gridda .grid-1 .paddin .p-2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 140%;
+  letter-spacing: 0.4px;
+  font-feature-settings: "pnum" on, "lnum" on;
+}
+main .page6__2 .gridda .grid-1 .paddin button {
+  all: unset;
+  width: 100%;
+  cursor: pointer;
+  margin-top: -30px;
+  text-align: center;
+  padding: 10px 0px;
+  background-color: #FFC000;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  font-feature-settings: "pnum" on, "lnum" on;
+  border-radius: 4px;
+}
+main .page6__2 .gridda .grid-1 .rassm {
+  width: 100%;
+}
+main .page6__2 .gridda .grid-1 .grid-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -20px;
+}
+main .page6__2 .gridda .grid-1 .grid-2 img {
+  margin-top: -19px;
+}
+
+@media (max-width: 960px) {
+  main .page6__2 .gridda {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 850px) {
+  main .page6 .diagram .fleks {
+    padding-top: 30px;
+    flex-direction: column;
+  }
+  main .page6 .diagram .fleks .left {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 725px) {
+  main .page6__2 .gridda {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 620px) {
+  main .page6 .nmadir {
+    flex-direction: column;
+  }
+}
+@media (max-width: 500px) {
+  main .page6__2 .gridda {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 450px) {
+  main .page6 .diagram .fleks .right .fleks5 {
+    flex-direction: column;
+  }
+}
+@media (max-width: 400px) {
+  main .page6 .nmadir button {
+    padding: 10px 50px;
+  }
+}

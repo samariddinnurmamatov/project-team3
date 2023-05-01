@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FaFaFa;
+}
+
+.container {
+  max-width: 1150px;
+  margin: auto;
+  padding: 0px 20px;
+}
+
+main .section1 {
+  margin-top: 70px;
+  background-color: #FAFAFA;
+}
+
+main .section1 .tuliq {
+  max-width: 1150px;
+  margin: auto;
+  padding: 0px 20px;
+  padding-top: 50px;
+  padding-bottom: 33px;
+}
+
+main .section1 h1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.25px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  margin-top: 50px;
+}
+
+main .section1 .sec1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+main .section1 .sec1 h2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+main .section1 .sec1 p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+  letter-spacing: 0.25px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+main .section1 .sec1 .right {
+  width: 100%;
+  margin-left: 100px;
+}
+
+main .section1 .sec1 .right img {
+  width: 100%;
+}
+
+main .section1 .sec1 .left {
+  width: 100%;
+}
+
+main .section2 {
+  text-align: center;
+  background-color: white;
+}
+
+main .section2 .sec2 .fleks {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+main .section2 .sec2 .fleks img {
+  margin-bottom: 20px;
+}
+
+main .section3 {
+  background-color: #0F0D2B;
+  padding-bottom: 30px;
+  color: white;
+  margin-bottom: 130px;
+}
+
+main .section3 .sec3 .fleks {
+  display: flex;
+  align-items: center;
+  margin-top: 250px;
+}
+
+main .section3 .sec3 .fleks .left {
+  width: 70%;
+  margin-top: -200px;
+}
+
+main .section3 .sec3 .fleks .right {
+  width: 100%;
+}
+
+main .section3 .sec3 .fleks .right h2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 140%;
+  letter-spacing: 0.25px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  padding-top: 30px;
+  margin-bottom: 24px;
+}
+
+main .section3 .sec3 .fleks .right p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.44px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  margin-bottom: 40px;
+}
+
+main .section3 .sec3 .fleks .right div {
+  display: flex;
+}
+
+main .section3 .sec3 .fleks .right div .right {
+  margin-left: 20px;
+}
+
+main .section3 .sec3 .fleks .right div img {
+  cursor: pointer;
+}
+
+main .section4 {
+  margin-bottom: 100px;
+}
+
+main .section4 .sec4 {
+  display: flex;
+}
+
+main .section4 .sec4 .map {
+  width: 70%;
+}
+
+main .section4 .sec4 .rightx {
+  margin-left: 100px;
+  width: 50%;
+}
+
+main .section4 .sec4 .rightx .fleksx {
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+}
+
+main .section4 .sec4 .rightx .fleksx h3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+main .section4 .sec4 .rightx .fleksx p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+@media (max-width: 880px) {
+  main .section3 .sec3 .fleks {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  main .section4 .sec4 {
+    flex-direction: column;
+  }
+  main .section4 .sec4 .map {
+    width: 100%;
+  }
+  main .section4 .sec4 .rightx {
+    width: 100%;
+    margin-left: 0px !important;
+  }
+  main .section4 .sec4 .rightx .fleksx {
+    justify-content: flex-start;
+  }
+  main .section4 .sec4 .rightx .fleksx .fleks2 {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 811px) {
+  main .section1 .tuliq .sec1 {
+    flex-direction: column-reverse;
+  }
+  main .section1 .tuliq .sec1 .right {
+    margin-left: 0px;
+    margin-bottom: 50px;
+  }
+}
+/*# sourceMappingURL=page2.css.map */

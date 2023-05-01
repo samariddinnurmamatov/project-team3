@@ -20,8 +20,8 @@ main .page6 {
 }
 
 main .page6 .diagram {
+  margin-left: 20px;
   background-color: white;
-  padding-top: 30px;
   display: flex;
   border-radius: 10px;
   margin-bottom: 30px;
@@ -35,6 +35,7 @@ main .page6 .diagram .fleks {
 
 main .page6 .diagram .fleks .right {
   margin-left: 50px;
+  padding-right: 20px;
 }
 
 main .page6 .diagram .fleks .right img {
@@ -81,18 +82,19 @@ main .page6 .diagram .fleks .right .fleks5 {
   justify-content: space-between;
 }
 
-main .page6 .diagram .fleks .left {
+main .page6 .diagram .left {
   margin-left: -20px;
 }
 
-main .page6 .nmadir {
+main .nmadir {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-main .page6 .nmadir button {
+main .nmadir button {
   all: unset;
+  cursor: pointer;
   background-color: #FFC000;
   font-family: 'Montserrat';
   font-style: normal;
@@ -104,9 +106,10 @@ main .page6 .nmadir button {
   font-feature-settings: 'pnum' on, 'lnum' on;
   color: #0D0D0D;
   padding: 18px 100px;
+  transition: .5s;
 }
 
-main .page6 .nmadir p {
+main .nmadir p {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
@@ -117,7 +120,7 @@ main .page6 .nmadir p {
   color: #000000;
 }
 
-main .page6 .nmadir p span {
+main .nmadir p span {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
@@ -183,6 +186,7 @@ main .page6__2 .gridda .grid-1 .paddin .p-2 {
 main .page6__2 .gridda .grid-1 .paddin button {
   all: unset;
   width: 100%;
+  cursor: pointer;
   margin-top: -30px;
   text-align: center;
   padding: 10px 0px;
@@ -211,5 +215,51 @@ main .page6__2 .gridda .grid-1 .grid-2 {
 
 main .page6__2 .gridda .grid-1 .grid-2 img {
   margin-top: -19px;
+}
+
+@media (max-width: 960px) {
+  main .page6__2 .gridda {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 850px) {
+  main .page6 .diagram .fleks {
+    padding-top: 30px;
+    flex-direction: column;
+  }
+  main .page6 .diagram .fleks .left {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 725px) {
+  main .page6__2 .gridda {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 620px) {
+  main .page6 .nmadir {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  main .page6__2 .gridda {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 450px) {
+  main .page6 .diagram .fleks .right .fleks5 {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 400px) {
+  main .page6 .nmadir button {
+    padding: 10px 50px;
+  }
 }
 /*# sourceMappingURL=page6.css.map */

@@ -32,6 +32,10 @@ main .page6 .diagram .fleks {
 }
 main .page6 .diagram .fleks .right {
   margin-left: 50px;
+<<<<<<< HEAD
+=======
+  padding-right: 20px;
+>>>>>>> 984eb496fac2aad015d7b918dbe245253b0bc67b
 }
 main .page6 .diagram .fleks .right img {
   cursor: pointer;
@@ -70,16 +74,29 @@ main .page6 .diagram .fleks .right .fleks5 {
   align-items: center;
   justify-content: space-between;
 }
+<<<<<<< HEAD
 main .page6 .diagram .fleks .left {
   margin-left: -20px;
 }
 main .page6 .nmadir {
+=======
+main .page6 .diagram .left {
+  margin-left: -20px;
+}
+main .nmadir {
+>>>>>>> 984eb496fac2aad015d7b918dbe245253b0bc67b
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+<<<<<<< HEAD
 main .page6 .nmadir button {
   all: unset;
+=======
+main .nmadir button {
+  all: unset;
+  cursor: pointer;
+>>>>>>> 984eb496fac2aad015d7b918dbe245253b0bc67b
   background-color: #FFC000;
   font-family: "Montserrat";
   font-style: normal;
@@ -91,8 +108,14 @@ main .page6 .nmadir button {
   font-feature-settings: "pnum" on, "lnum" on;
   color: #0D0D0D;
   padding: 18px 100px;
+<<<<<<< HEAD
 }
 main .page6 .nmadir p {
+=======
+  transition: 0.5s;
+}
+main .nmadir p {
+>>>>>>> 984eb496fac2aad015d7b918dbe245253b0bc67b
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -102,7 +125,11 @@ main .page6 .nmadir p {
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
 }
+<<<<<<< HEAD
 main .page6 .nmadir p span {
+=======
+main .nmadir p span {
+>>>>>>> 984eb496fac2aad015d7b918dbe245253b0bc67b
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -161,6 +188,10 @@ main .page6__2 .gridda .grid-1 .paddin .p-2 {
 main .page6__2 .gridda .grid-1 .paddin button {
   all: unset;
   width: 100%;
+<<<<<<< HEAD
+=======
+  cursor: pointer;
+>>>>>>> 984eb496fac2aad015d7b918dbe245253b0bc67b
   margin-top: -30px;
   text-align: center;
   padding: 10px 0px;
@@ -186,4 +217,47 @@ main .page6__2 .gridda .grid-1 .grid-2 {
 }
 main .page6__2 .gridda .grid-1 .grid-2 img {
   margin-top: -19px;
+<<<<<<< HEAD
+=======
+}
+
+@media (max-width: 960px) {
+  main .page6__2 .gridda {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 850px) {
+  main .page6 .diagram .fleks {
+    padding-top: 30px;
+    flex-direction: column;
+  }
+  main .page6 .diagram .fleks .left {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 725px) {
+  main .page6__2 .gridda {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 620px) {
+  main .page6 .nmadir {
+    flex-direction: column;
+  }
+}
+@media (max-width: 500px) {
+  main .page6__2 .gridda {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 450px) {
+  main .page6 .diagram .fleks .right .fleks5 {
+    flex-direction: column;
+  }
+}
+@media (max-width: 400px) {
+  main .page6 .nmadir button {
+    padding: 10px 50px;
+  }
+>>>>>>> 984eb496fac2aad015d7b918dbe245253b0bc67b
 }

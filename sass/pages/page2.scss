@@ -252,6 +252,9 @@ main {
                         line-height: 32px;
                         font-feature-settings: 'pnum' on, 'lnum' on;
                     }
+                    .fleks2 {
+                        margin-left: 20px;
+                    }
                 }
             }
         }
@@ -283,7 +286,7 @@ main {
                     margin-left: 0px !important;
                     .fleksx {
                         // flex-direction: column;
-                        justify-content: flex-start;
+                        justify-content: space-between;
                         .fleks2 {
                             margin-left: 50px;
                         }

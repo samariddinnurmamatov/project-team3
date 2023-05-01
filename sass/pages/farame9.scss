@@ -1,8 +1,14 @@
 @use "../global";
 
+.nav-ru-uz {
+  top: 70px;
+}
+
 .sec {
-  h1 {
-    // margin-top: 32px !important;
+  height: 680px;
+  margin-top: 110px;
+  #h1 {
+    margin-top: 130px !important;
     margin-bottom: 40px !important;
     text-align: center;
   }

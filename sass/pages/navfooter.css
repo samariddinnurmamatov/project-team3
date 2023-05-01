@@ -103,4 +103,11 @@ footer .futer p {
   font-feature-settings: 'pnum' on, 'lnum' on;
   color: #000000;
 }
+
+@media (max-width: 750px) {
+  footer .futer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 /*# sourceMappingURL=navfooter.css.map */

@@ -8,8 +8,8 @@
   }
   background-color: #E5E5E5;
   .shop {
-    width: 1146px;
-    height: 295px;
+    width: auto;
+    height: 355px;
     background-color: #fff;
     .head {
       display: flex;
@@ -29,6 +29,7 @@
     }
     .item {
       // width: 754px;
+      width: auto;
       height: 66px;
       // margin-left: 294px;
       margin-bottom: 43px;
@@ -36,6 +37,7 @@
     .num {
       display: flex;
       justify-content: space-between;
+      margin-top: 100px;
       // margin-left: 294px;
       .cum {
         display: flex;
@@ -71,7 +73,8 @@
 
   }
   .afarmlyat {
-    width: 1160px;
+    // width: 1160px;
+    width: auto;
     right: 150px;
     left: 150px;
     text-align: right;
@@ -88,7 +91,8 @@
   }
   
   .wor {
-    width: 1146px;
+    // width: 1146px;
+    width: auto;
     height: 48px;
     display: flex;
     justify-content: center;
@@ -98,6 +102,15 @@
     p {
       margin-top: 13px;
       margin-left: 19px;
+    }
+  }
+}
+@media (min-width: 575px) {
+  .shop {
+    width: 1146px;
+    height: 295px;
+    .num {
+      margin-top: -100px;
     }
   }
 }

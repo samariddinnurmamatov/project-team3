@@ -1,0 +1,143 @@
+@use "../global";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+/* Section1 start */
+.section1 {
+  padding-top: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 110px;
+  background: #E5E5E5;
+  position: relative;
+}
+.section1 h1{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 140%;
+    /* identical to box height, or 48px */
+    text-align: center;
+    letter-spacing: 0.25px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #000000;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 94%;
+}
+.left img{
+    width: 100%;
+}
+
+
+.right {
+  width: 50%;
+}
+.right .user-box {
+  position: relative;
+}
+.right .user-box input {
+  width: 100%;
+  padding: 12px 8px;
+  font-size: 13px;
+  color: black;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+.right .user-box input:focus {
+  border-bottom: 1.8px solid;
+}
+.right .user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 12px 8px;
+  font-size: 17px;
+  color: black;
+  pointer-events: none;
+  transition: 0.4s;
+}
+.right .user-box input:focus ~ label,
+.right .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: black;
+  font-size: 17px;
+}
+.flex-inputla {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.nav-btn2 {
+  padding: 14px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: black;
+  background: white;
+  border: none;
+  margin-top: 15px;
+  border: 1px solid #d9d9d9;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  background: #FFC000;
+}
+.nav-btn2:hover {
+  background-color: #2ee59d;
+  box-shadow: 0px 15px 20px rgba(46, 229, 156, 0.229);
+  color: black;
+  transform: translateY(-5px);
+  border-radius: 50px;
+}
+.user-box2 {
+  border: 2px solid #01bab3;
+  border-radius: 4px;
+}
+.span-message {
+  color: #f67e7e;
+}
+
+@media (max-width: 950px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+  }
+  
+  .left h1 {
+    font-size: 50px;
+  }
+  .left p {
+    font-size: 25px;
+  }
+  .right {
+    width: 100%;
+  }
+}
+
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./sass/pages/macbook9.css">
+</head>
+<body>
+    
+    <main>
+        <section class="section1">
+            <h1>Оплата</h1><br><br>
+          <div class="flex container">
+            <div class="left">
+             <img src="./images/img_contact/image 30.png" alt="">
+            </div>
+            <div class="right">
+              <form>
+                <div class="user-box">
+                  <input class="name" type="text" name="email" required>
+                  <label>Имя на карте *</label>
+                </div><br><br>
+                <div class="user-box">
+                  <input type="name" required />
+                  <label>Номер карты *</label>
+                </div><br><br>
+                <div class="user-box">
+                  <input type="date" required />
+                </div><br>
+                
+                <span class="span-message"></span><br>
+                <button type="submit" class="nav-btn2">Оплатить</button>
+              </form>
+            </div>
+          </div>
+        </section>
+    </main>
+    
+    <script src="./script.js">
+    
+        const btn = document.querySelector(".nav-btn2");
+        const namee = document.querySelector(".namee");
+        const message = document.querySelector(".span-message");
+    
+        let data = [];
+    
+        btn.addEventListener('click', (e) => {
+          e.preventDefault();
+          if (namee.value) {
+            // window.location.href = "./signup.html";  
+          } else {
+            message.innerHTML = `
+        <span>Iltimos Malmotlarni tuliq tuldiring 🤔</span>
+        `
+            setInterval(() => {
+              message.innerHTML = `
+            <span> </span>
+            `
+            }, 4300)
+    
+          }
+        })
+    </script>
+</body>
+</html>

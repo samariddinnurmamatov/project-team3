@@ -17,16 +17,14 @@
   color: white;
   margin-top: -70px;
 }
-
 .naav .naav2 {
   display: flex;
   padding-top: 10px;
 }
-
 .naav .naav2 .ru a {
   color: white;
   margin-right: 5px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -34,14 +32,13 @@
   line-height: 140%;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  font-feature-settings: 'pnum' on, 'lnum' on;
+  font-feature-settings: "pnum" on, "lnum" on;
 }
-
 .naav .naav2 .uz a {
   color: rgba(255, 255, 255, 0.278);
   margin-left: 5px;
   text-decoration: none;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -49,19 +46,17 @@
   line-height: 140%;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  font-feature-settings: 'pnum' on, 'lnum' on;
+  font-feature-settings: "pnum" on, "lnum" on;
 }
 
 main {
-  background: #e8e7e7;
+  background: rgb(232, 231, 231);
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
 main .section1 {
   padding-top: 50px;
 }
-
 main .section1 .sec1 h1 {
   font-family: "Montserrat";
   font-style: normal;
@@ -73,21 +68,17 @@ main .section1 .sec1 h1 {
   font-feature-settings: "pnum" on, "lnum" on;
   margin-bottom: 24px;
 }
-
 main .section1 .sec1 .sec1__grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 30px;
 }
-
 main .section1 .sec1 .sec1__grid img {
   width: 100%;
 }
-
 main .section1 .sec1 .sec1__grid div {
   text-align: center;
 }
-
 main .section1 .sec1 .sec1__grid div p {
   font-family: "Montserrat";
   font-style: normal;
@@ -110,22 +101,18 @@ main .section1 .sec1 .sec1__grid div p {
     margin-left: 0px;
   }
 }
-
 @media (max-width: 700px) {
   main .section1 .sec1 .sec1__grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-
 @media (max-width: 500px) {
   main .section1 .sec1 .sec1__grid {
     grid-template-columns: 1fr 1fr;
   }
 }
-
 @media (max-width: 370px) {
   main .section1 .sec1 .sec1__grid {
     grid-template-columns: 1fr;
   }
-}
-/*# sourceMappingURL=page3.css.map */
+}/*# sourceMappingURL=page3.css.map */
